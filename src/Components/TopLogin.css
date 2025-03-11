@@ -1,0 +1,64 @@
+
+
+/* 
+.design {
+
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+
+    .h-custom {
+        height: calc(100% - 73px);
+    }
+
+    @media (max-width: 450px) {
+        .h-custom {
+            height: 100%;
+        }
+    }
+} */
+.Login {
+    background-color: rgb(246, 173, 173);
+  }
+  
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1313109811/photo/baking-background-with-flour-eggs-kitchen-tools-utensils-and-cookie-molds-on-white-marble.jpg?s=612x612&w=0&k=20&c=7EBq_Y_WZS34z11rdEoEpKrPivbT9QiU3XomkCFV-Vs=");
+    background-size: cover;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(245, 150, 150);
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }

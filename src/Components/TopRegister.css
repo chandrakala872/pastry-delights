@@ -1,0 +1,26 @@
+
+
+.Main-box5 {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+#Form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .Main-box5 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .Main-box5 {
+    width: 95%;
+  }
+}
